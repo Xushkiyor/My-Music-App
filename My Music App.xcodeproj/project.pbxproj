@@ -13,6 +13,11 @@
 		C9C5A8F82937725C00E99E46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C5A8F62937725C00E99E46 /* Main.storyboard */; };
 		C9C5A8FA2937725E00E99E46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9C5A8F92937725E00E99E46 /* Assets.xcassets */; };
 		C9C5A8FD2937725E00E99E46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C5A8FB2937725E00E99E46 /* LaunchScreen.storyboard */; };
+		C9C5A9072937768F00E99E46 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C5A9062937768F00E99E46 /* Music.swift */; };
+		C9C5A9092937807B00E99E46 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C5A9082937807B00E99E46 /* PlayerViewController.swift */; };
+		C9C5A9292937985A00E99E46 /* song2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9C5A9262937985A00E99E46 /* song2.mp3 */; };
+		C9C5A92A2937985A00E99E46 /* song3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9C5A9272937985A00E99E46 /* song3.mp3 */; };
+		C9C5A92B2937985A00E99E46 /* song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9C5A9282937985A00E99E46 /* song1.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		C9C5A8F92937725E00E99E46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9C5A8FC2937725E00E99E46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9C5A8FE2937725E00E99E46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9C5A9062937768F00E99E46 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		C9C5A9082937807B00E99E46 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		C9C5A9262937985A00E99E46 /* song2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = song2.mp3; path = ../../../../Documents/audio/song2.mp3; sourceTree = "<group>"; };
+		C9C5A9272937985A00E99E46 /* song3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = song3.mp3; path = ../../../../Documents/audio/song3.mp3; sourceTree = "<group>"; };
+		C9C5A9282937985A00E99E46 /* song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = song1.mp3; path = ../../../../Documents/audio/song1.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,9 @@
 		C9C5A8EF2937725C00E99E46 /* My Music App */ = {
 			isa = PBXGroup;
 			children = (
+				C9C5A9282937985A00E99E46 /* song1.mp3 */,
+				C9C5A9262937985A00E99E46 /* song2.mp3 */,
+				C9C5A9272937985A00E99E46 /* song3.mp3 */,
 				C9C5A8F02937725C00E99E46 /* AppDelegate.swift */,
 				C9C5A8F22937725C00E99E46 /* SceneDelegate.swift */,
 				C9C5A8F42937725C00E99E46 /* ViewController.swift */,
@@ -63,6 +76,8 @@
 				C9C5A8F92937725E00E99E46 /* Assets.xcassets */,
 				C9C5A8FB2937725E00E99E46 /* LaunchScreen.storyboard */,
 				C9C5A8FE2937725E00E99E46 /* Info.plist */,
+				C9C5A9062937768F00E99E46 /* Music.swift */,
+				C9C5A9082937807B00E99E46 /* PlayerViewController.swift */,
 			);
 			path = "My Music App";
 			sourceTree = "<group>";
@@ -126,7 +141,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9C5A8FD2937725E00E99E46 /* LaunchScreen.storyboard in Resources */,
+				C9C5A92B2937985A00E99E46 /* song1.mp3 in Resources */,
+				C9C5A92A2937985A00E99E46 /* song3.mp3 in Resources */,
 				C9C5A8FA2937725E00E99E46 /* Assets.xcassets in Resources */,
+				C9C5A9292937985A00E99E46 /* song2.mp3 in Resources */,
 				C9C5A8F82937725C00E99E46 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +159,8 @@
 				C9C5A8F52937725C00E99E46 /* ViewController.swift in Sources */,
 				C9C5A8F12937725C00E99E46 /* AppDelegate.swift in Sources */,
 				C9C5A8F32937725C00E99E46 /* SceneDelegate.swift in Sources */,
+				C9C5A9072937768F00E99E46 /* Music.swift in Sources */,
+				C9C5A9092937807B00E99E46 /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
